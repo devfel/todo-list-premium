@@ -25,6 +25,7 @@ This project was done using Javascript, Node and Express</p>
 - [Application Features](#features)
 - [Dependencies](#dependencies)
 - [Built Using](#built_using)
+- [Getting Started](#getting_started)
 - [Acknowledgements](#acknowledgements)
 - [Licenses](#licenses)
 - [Authors](#authors)
@@ -33,7 +34,7 @@ This project was done using Javascript, Node and Express</p>
 
 ## 🧐 Application Features <a name = "features"></a>
 
-With this application the client can access the following routes<br/>
+With this application the client can access the following routes:<br/>
 
 1. Create User <br/>
 1. List All Users <br/>
@@ -41,6 +42,7 @@ With this application the client can access the following routes<br/>
 1. List all User To-dos. <br/>
 1. Update an User To-do. (put) <br/>
 1. Toogle an User To-do Status (done/not done). (patch) <br/>
+1. Update an User plan to PRO or PREMIUM.
 
 This application was done with several middlewares, icluding one to check if user is Pro or Free. <br/>
 
@@ -64,6 +66,26 @@ Some project library dependencies includes but are not limited to:
 - [Express](https://expressjs.com/) - Server Framework
 - [NodeJs](https://nodejs.org/en/) - Server Environment
 - [Insomnia](https://insomnia.rest/) - Rest Client
+
+---
+
+## 🏁 Getting Started <a name = "getting_started"></a>
+
+You can clone the repository through Command Prompt or Terminal just by typing:
+
+```sh
+git clone https://github.com/devfel/todo-list-premium.git
+```
+
+or download the zip from the green **"Code"** button.
+
+Install dependencies packages with <b>yarn</b>
+
+```sh
+yarn
+```
+
+With the dependencies installed run <b>yarn dev</b> to bring up the server. To execute the tests run <b>yarn test</b>.
 
 ---
 
